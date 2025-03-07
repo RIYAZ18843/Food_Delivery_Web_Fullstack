@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #49557E;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.logo-text:hover {
+    color: #FF4C24;
+    transform: scale(1.1);
+}
+
+.navbar .profile{
+    width: 40px;
+}
